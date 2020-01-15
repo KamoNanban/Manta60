@@ -51,9 +51,10 @@
 
 部品の購入先
 
-- 対応キーセット<br>
+- 対応キーセット（一部不足キー有）<br>
 [遊舎工房](https://yushakobo.jp/)<br>
 　MDA ORTHO VoID<br>
+　MDA Big Bang 2.0<br>
 [TALP KEYBOARD](https://talpkeyboard.stores.jp/)<br>
 　MDA Big Bang 2.0 Ortholinear キーキャップセット<br>
 上記どちらも2Uキーは2個付属、その他2Uキーは1.5Uキーで代用可。<br>
