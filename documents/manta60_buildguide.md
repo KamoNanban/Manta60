@@ -23,9 +23,50 @@
 ## 0.事前準備
 ### キットの内容物確認
 以下の部品が全て揃っているか確認してください。
+- トッププレート：2枚
+- ミドルプレート：2枚
+- ボトムプレート：2枚
+- チップダイオード：68個
+- ネジ（短）：16本
+- ネジ（長）：20本
+- ネジ（低頭）：20本
+- スペーサ（短）：8本
+- スペーサ（長）：20本
+- タクトスイッチ：2個
+- オーディオジャック：2個
+- アクリルプレート：2枚
+- 3ピンばね端子：2個
+- ゴム足：8個
 
 ### キット以外に必要な部品
+- ProMicro：2個
+- コンスルー：4個
+- 4極（TRRS）3.5㎜ステレオケーブル
+- USB-A to MicroBケーブル
+- キースイッチ：64～68個
+- スイッチ用PCBソケット：72個
+- 1Uキーキャップ：58～66個
+- 2Uキーキャップ：6～2個
+- RGB LED（WS2812B）:68個（オプション）
 
+部品の購入先
+
+- 対応キーセット<br>
+[遊舎工房](https://yushakobo.jp/)<br>
+　MDA ORTHO VoID<br>
+[TALP KEYBOARD](https://talpkeyboard.stores.jp/)<br>
+　MDA Big Bang 2.0 Ortholinear キーキャップセット<br>
+上記どちらも2Uキーは2個付属、その他2Uキーは1.5Uキーで代用可。<br>
+
+- 1U、2Uキーキャップ<br>
+[TALP KEYBOARD](https://talpkeyboard.stores.jp/)<br>
+[遊舎工房](https://yushakobo.jp/)※店頭販売のみ<br>
+
+- RGB LED（WS2812B）<br>
+[AKIBAピカリ館](https://www.akiba-led.jp/)<br>
+[LED PARADISE☆エルパラ](https://www.led-paradise.com/)<br>
+[共立エレショップ](https://eleshop.jp/shop/default.aspx)<br>
+等で購入可能。<br>
 
 ### 必要な工具
 - 温度調節機能付きはんだごて
