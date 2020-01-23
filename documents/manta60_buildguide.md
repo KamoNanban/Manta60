@@ -131,9 +131,11 @@
 
 ## 4.スペーサの取り付け
 長いスペーサをトッププレートに取り付けていきます。<br>
-格子配列部分、中央4ヶ所のスペーサについては打鍵感をより硬くしたい場合に取り付けます。<br>
+赤丸で示した中央4ヶ所のスペーサについては打鍵感をより硬くしたい場合に取り付けてください。<br>
+<img src="https://github.com/KamoNanban/Manta60/raw/master/documents/_image/Manta60_1.png" width="640"><br>
+<br>
+**※LEDの実装をする場合、赤丸で示した箇所のスペーサはボトムプレートに取り付けてください。**<br>
 <img src="https://github.com/KamoNanban/Manta60/raw/master/documents/_image/IMG_20200107_232640.jpg" width="640"><br>
-※LEDの実装をする場合、赤丸で示した箇所のスペーサはボトムプレートに取り付けてください。<br>
 
 ## 5.ソケットのはんだ付け
 ソケット実装のガイドとして使用するため、スイッチを<br>
@@ -160,7 +162,8 @@ ProMicoroの位置や向きが問題なければProMicoro側をはんだ付け�
 　ほぼ不可能となるため推奨しません。<br>
 
 ## 7.ファームウェアの書込み<br>
-
+下記ディレクトリに格納されているビルド済みのファームウェアをダウンロードし、qmk toolboxを使用して書き込んでください。
+[hexファイル](https://github.com/KamoNanban/Manta60/blob/master/hex/manta60_default.hex)<br>
 
 ## 8.RGB_LEDの実装
 ### ばね端子のはんだ付け
@@ -176,6 +179,11 @@ ProMicoroの位置や向きが問題なければProMicoro側をはんだ付け�
 ボトムプレートにミドルプレートを乗せ、ミドルプレート側から<br>
 ボトムプレートに向けてテスターの先端を差し込んで各端子の導通確認を行います。<br>
 <img src="https://github.com/KamoNanban/Manta60/raw/master/documents/_image/IMG_20191231_192423.jpg" width="640"><br>
+<br>
+写真を参考にテスタを使用して導通確認し、●と●、▲と▲、■と■で示したパッド同士で導通していることを確認してください。
+それ以外のパッドと導通している場合は修正します。
+<img src="https://github.com/KamoNanban/Manta60/raw/master/documents/_image/Manta60_LED_test.png" width="640"><br>
+
 全ての端子がミッドプレートと導通し、他の端子とショートしていないことが確認できたらLEDを実装していきます。<br>
 **※導通確認を実施する際はProMicroにUSBを接続していない状態で実施してください。<br>
 ※USBを接続した状態で導通確認を実施すると基板又はPromicroが破損する可能性があります。<br>**
