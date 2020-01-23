@@ -152,7 +152,8 @@
 はんだを溶かしながらソケットを押さえつけてください。<br>
 
 ## 6.ProMicroの取り付け
-ミッドプレート画像赤枠内のピンにコンスルーを差し込み、USB端子が下側になるようProMicoroを取り付けます。<br>
+ミッドプレート画像赤枠内のピンにコンスルーを差し込み、USB端子がProMicrono基板の<br>
+下側になるようProMicoroを取り付けます。<br>
 <img src="https://github.com/KamoNanban/Manta60/raw/master/documents/_image/IMG_20200114_012920(1).jpg" width="640"><br>
 <br>
 このとき、ミッドプレートにLEDと記載のあるピンとProMicro上端のピンを合わせてください。
@@ -162,8 +163,13 @@ ProMicoroの位置や向きが問題なければProMicoro側をはんだ付け�
 　ほぼ不可能となるため推奨しません。<br>
 
 ## 7.ファームウェアの書込み<br>
-下記ディレクトリに格納されているビルド済みのファームウェアをダウンロードし、qmk toolboxを使用して書き込んでください。
+下記リンク先に格納されているビルド済みのファームウェアをダウンロードし、<br>
+qmk toolboxを使用して書き込んでください。<br>
 [hexファイル](https://github.com/KamoNanban/Manta60/blob/master/hex/manta60_default.hex)<br>
+
+MANTA60は現在プルリクエストの準備中です。
+マージまでは以下のリポジトリのファームウェアを利用してください。
+https://github.com/KamoNanban/qmk_firmware_new/tree/manta60_update
 
 ## 8.RGB_LEDの実装
 ### ばね端子のはんだ付け
