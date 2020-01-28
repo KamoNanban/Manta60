@@ -152,7 +152,7 @@
 はんだを溶かしながらソケットを押さえつけてください。<br>
 
 ## 6.ProMicroの取り付け
-ミッドプレート画像赤枠内のピンにコンスルーを差し込み、USB端子がProMicrono基板の<br>
+ミッドプレート画像赤枠内のピンにコンスルーを差し込み、USB端子がProMicro基板の<br>
 下側になるようProMicroを取り付けます。<br>
 <img src="https://github.com/KamoNanban/Manta60/raw/master/documents/_image/IMG_20200114_012920(1).jpg" width="640"><br>
 <br>
