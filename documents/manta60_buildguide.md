@@ -152,14 +152,14 @@
 はんだを溶かしながらソケットを押さえつけてください。<br>
 
 ## 6.ProMicroの取り付け
-ミッドプレート画像赤枠内のピンにコンスルーを差し込み、USB端子がProMicrono基板の<br>
-下側になるようProMicoroを取り付けます。<br>
+ミッドプレート画像赤枠内のピンにコンスルーを差し込み、USB端子がProMicro基板の<br>
+下側になるようProMicroを取り付けます。<br>
 <img src="https://github.com/KamoNanban/Manta60/raw/master/documents/_image/IMG_20200114_012920(1).jpg" width="640"><br>
 <br>
 このとき、ミッドプレートにLEDと記載のあるピンとProMicro上端のピンを合わせてください。
 <img src="https://github.com/KamoNanban/Manta60/raw/master/documents/_image/IMG_20200119_224107.jpg" width="640"><br>
-ProMicoroの位置や向きが問題なければProMicoro側をはんだ付けしていきます。<br>
-※ピンヘッダでも実装可能ですが、ProMicoroが破損した場合の交換が<br>
+ProMicroの位置や向きが問題なければProMicro側をはんだ付けしていきます。<br>
+※ピンヘッダでも実装可能ですが、ProMicroが破損した場合の交換が<br>
 　ほぼ不可能となるため推奨しません。<br>
 
 ## 7.ファームウェアの書込み<br>
@@ -207,5 +207,7 @@ RGB LEDは写真のようにLEDの欠けている箇所とボトムプレート�
 1行はんだ付けしたら確認する程度でよいと思います。
 
 ## 9.完成
-動作確認ができたらアクリルカバーとボトムプレートをねじ止めし、お好みのキーキャップを付けて完成です。<br>
+動作確認ができたらアクリルカバーに同梱されているねじとスペーサを使用してアクリルプレートを固定し、<br>
+ボトムプレートをねじ止めします。<br>
+お好みのキーキャップを付けて完成です。<br>
 お疲れさまでした！<br>
