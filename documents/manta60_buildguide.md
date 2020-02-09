@@ -60,12 +60,15 @@
 [TALP KEYBOARD](https://talpkeyboard.stores.jp/)<br>
 　MDA Big Bang 2.0 Ortholinear キーキャップセット<br>
 上記どちらも2Uキーは2個付属、その他2Uキーは1.5Uキーで代用可。<br>
+日本以外ではPIMP MY KEYBOARD等でも購入可能です。
+
 
 - 1U、2Uキーキャップ<br>
 [TALP KEYBOARD](https://talpkeyboard.stores.jp/)<br>
 [遊舎工房](https://yushakobo.jp/)※店頭販売のみ<br>
 
 - RGB LED（WS2812B）<br>
+[遊舎工房](https://yushakobo.jp/)※店頭販売のみ<br>
 [AKIBAピカリ館](https://www.akiba-led.jp/)<br>
 [LED PARADISE☆エルパラ](https://www.led-paradise.com/)<br>
 [共立エレショップ](https://eleshop.jp/shop/default.aspx)<br>
