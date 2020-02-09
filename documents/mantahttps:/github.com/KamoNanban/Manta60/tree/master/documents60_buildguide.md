@@ -75,6 +75,7 @@
 - 温度調節機能付きはんだごて
 	- HAKKO FX600 等
 - はんだ
+　　　　-　太さ0.6㎜のものを推奨します。
 - 精密ドライバー
 	- 適合ドライバーサイズ：#0
 - ピンセット
@@ -87,7 +88,7 @@
 - フラックス
 	- はんだ付けを修正する際や、はんだを吸い取る際に使用します。
 - はんだ吸い取り線
-	- 部品の取り外しで使用します。幅1㎜以下を推奨。
+	- 部品の取り外しで使用します。幅1㎜程度を推奨。
 - 油性ペン（黒）
 	- プレートの側面塗装用です。
 - やすり
@@ -96,7 +97,7 @@
 ### 仮組み
 ダイオード/スイッチ用PCBソケット/3ピンばね端子を以外の部品をミッドプレートに配置し、部品を取り付ける位置を確認します。<br>
 必要であればこの時点でトッププレートにスペーサやスイッチを取り付けても構いません。<br>
-＜サンプル＞<br>
+＜実装サンプル＞<br>
 ＜表＞<br>
 <img src="https://github.com/KamoNanban/Manta60/raw/master/documents/_image/IMG_20200119_225325.jpg" width="640"><br>
 ※赤枠内の部品は電池基板オプション用部品のため、キットには付属していません。<br>
@@ -167,22 +168,26 @@ ProMicroの位置や向きが問題なければProMicro側をはんだ付けし�
 qmk toolboxを使用して書き込んでください。<br>
 [hexファイル](https://github.com/KamoNanban/Manta60/blob/master/hex/manta60_default.hex)<br>
 
-MANTA60は現在プルリクエストの準備中です。
-マージまでは以下のリポジトリのファームウェアを利用してください。
-https://github.com/KamoNanban/qmk_firmware_new/tree/manta60_update
+MANTA60のファームウェアはQMK_Firmwareのmasterにマージされていますのでそちらをご利用ください。
+https://github.com/qmk/qmk_firmware
 
 ## 8.RGB_LEDの実装
 ### ばね端子のはんだ付け
 ボトムプレートにばね端子をはんだ付けします。<br>
-まず1ヶ所だけはんだ付けし、位置調整をします。<br>
-目安はボトムプレートのシルク印刷の下端とばね端子の下端が重なる程度が目安です。<br>
+はんだ付けする箇所は赤枠で囲まれた上3か所の端子と下2か所の補強用端子です。
+<img src="https://github.com/KamoNanban/Manta60/raw/master/documents/_image/MANTA60_3pin.jpg" width="640"><br>
+まず上3か所のうち1ヶ所だけはんだ付けし、位置調整をします。<br>
+1ヶ所だけはんだ付けした状態でボトムプレートにミドルプレートを重ね、はんだ付けした端子と<br>
+ミドルプレートの対応する端子が導通しているかを確認します。<br>
+確認手順は次項の導通確認の項目を参考にして確認してください。<br>
+位置決めの目安は以下画像のようにボトムプレートのシルク印刷の下端とばね端子の下端が重なる程度が目安です。<br>
 <img src="https://github.com/KamoNanban/Manta60/raw/master/documents/_image/IMG_20191231_191808.jpg" width="640"><br>
 あまり上寄りになるとミドルプレートと導通が取れなくなるため注意してください。<br>
 位置決めができたら残りの端子もはんだ付けします。<br>
 
 ### 導通確認
 ボトムプレートにスペーサを取り付けて導通確認を行います。<br>
-ボトムプレートにミドルプレートを乗せ、ミドルプレート側から<br>
+ボトムプレートにミドルプレートを重ね、ミドルプレート側から<br>
 ボトムプレートに向けてテスターの先端を差し込んで各端子の導通確認を行います。<br>
 <img src="https://github.com/KamoNanban/Manta60/raw/master/documents/_image/IMG_20191231_192423.jpg" width="640"><br>
 <br>
@@ -190,7 +195,7 @@ https://github.com/KamoNanban/qmk_firmware_new/tree/manta60_update
 それ以外のパッドと導通している場合は修正します。
 <img src="https://github.com/KamoNanban/Manta60/raw/master/documents/_image/Manta60_LED_test.png" width="640"><br>
 
-全ての端子がミッドプレートと導通し、他の端子とショートしていないことが確認できたらLEDを実装していきます。<br>
+全ての端子がミドルプレートと導通し、他の端子とショートしていないことが確認できたらLEDを実装していきます。<br>
 **※導通確認を実施する際はProMicroにUSBを接続していない状態で実施してください。<br>
 ※USBを接続した状態で導通確認を実施すると基板又はPromicroが破損する可能性があります。<br>**
 
